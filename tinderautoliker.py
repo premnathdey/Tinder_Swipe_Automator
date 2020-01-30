@@ -30,10 +30,12 @@ for x in range(0, 1000):
 	y = randint(0, 1)
 	if y == 0:
 		pyautogui.press('left')
-		time.sleep(tim)
+		tim1= randint(3,7)
+		time.sleep(tim1)
 	elif y == 1:
 		pyautogui.press('right')
-		time.sleep(tim)
+		tim2= randint(3,7)
+		time.sleep(tim2)
 	elif x == 100:
 		print ("EXIT")
 		break
